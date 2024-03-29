@@ -1,0 +1,54 @@
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    }
+    body {
+        background-image: url('Fondo-Formulario.jpg');
+        
+    }
+    .form-register {
+        width: 500px;
+        background: #023644;
+        padding: 60px;
+        margin:auto;
+        margin-top: 60px;
+        border-radius: 8px;
+        font-family: 'calibri';
+        text-align:center;
+        color: white;
+        box-shadow: 7px 13px 37px #000;
+    }
+
+    .form-register h4{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .controls {
+        width: 100%;
+        background: #023644;
+        padding: 10px;
+        border-radius: 16px;
+        margin-bottom: 16px;
+        border: 1px solid #14a7e1;
+        font-family: 'calibri';
+        font-size: 18px;
+        color:white;
+    }
+    .form-register p{
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .form-register .boton {
+        width: 100%;
+        background: #14a7e1;
+        border: none;
+        padding: 12px;
+        margin-top: 20px;
+        color: white;
+        margin-bottom: auto ;
+        font-size: 16px;
+    }
+    

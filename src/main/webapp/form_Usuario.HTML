@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="Style.CSS">
+            <title>Formulario Usuario</title>
+        </head>
+        <body>
+                <main >
+                    <form name="FormularioRegistro" action="ServletRecibeDatos" method="get">
+                        <section class="form-register">
+                            <p style="text-align: left">Por favor digite sus datos personales para el registro a nuestra base de datos:</p><br>
+                            <h4>Formulario de Registro:</h4>
+                            <input Class="controls" type="text-box" id="N" name="Nombre" placeholder="ingrese su nombre" >
+                            <input Class="controls" type="text-box" id="A" name="Apellido" placeholder="Ingrese su apellido" >
+                            <input Class="controls" type="text-box" id="NS" name="nomUsuario" placeholder="Ingrese un nombre de usuario" >
+                            <input Class="controls" type="email" id="E" name="email" placeholder="Ingrese su correo :example@hotmail.com" required >
+                            <input Class="controls" type="password" id="C" name="contraseña" placeholder="Ingrese una contraseña: AE%@1236." required > 
+                            <input class="boton" type="submit" value="Registrar">
+                        </section>
+                    </form>
+                </main>
+        </body>
+    </html>
